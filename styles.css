@@ -1,0 +1,163 @@
+body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: #c1c1c1c1;
+}
+  
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: #1A2238; /* old IE */
+    background-color: #1A2238; /* Modern Browsers */
+}
+
+.about
+{
+    padding:4%;
+    font-family: Cairo;
+    text-align: center;
+}
+
+.align-items-center 
+{
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+}
+
+.card
+{
+    width:100%;
+    box-shadow: 1px 1px 1px 1px;
+    margin-bottom: 5%;
+    transition: background-color 0.5s;
+    
+}
+.card:hover
+{
+    background-color: #A6D1E6;
+}
+
+
+.card-group
+{
+    padding:10%;
+}
+
+.card-image-top
+{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.col
+{
+    position:inline-block;
+}
+
+
+.fixed-nav-bar {position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; height: 50px; background-color: #1A2238; }
+
+.navbar
+{
+    height:10%;
+}
+
+.navbar-collapse
+{
+    background-color: #1A2238;
+}
+
+.navbar-inner
+{
+    background: white;
+}
+
+.navlink
+{
+    color:white;
+}
+
+.carousel,.carousel-item,.carousel-inner
+{
+    width:100%;
+}
+
+
+.carousel-content{
+    text-align: center;
+    padding:15%;    
+    font-family: Cairo;
+}
+
+.carousel-content-desc
+{
+    font-family: Cairo;
+}
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+
+.spacer 
+{
+    margin: 20px 5px;
+    color: white;
+}
+
+.row
+{
+    display:flex;
+    flex-direction:row
+}
+
+
+#contact
+{
+    text-align: center;
+    background-color: #1A2238;
+    animation-iteration-count: 0;
+    transition: 0s;
+    position: relative;
+}
+
+#forumGroup
+{
+    overflow:hidden
+}
+
+#mission
+{
+    padding:10%;
+    text-align: center;
+}
+
+#vision
+{
+    padding: 10%;
+    text-align: center;
+}
+
